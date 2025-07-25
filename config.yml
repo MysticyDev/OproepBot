@@ -1,0 +1,42 @@
+token: ""
+mongoUri: ""
+
+callMenuChannelId: ""
+webhooks:
+  dsi: "" 
+  rech: "" 
+  kl: ""
+  iz: ""
+  zulu: "" 
+
+notifyRoleIds:
+  dsi: [""]
+  rech: [""]
+  kl: [""]
+  iz: [""]
+  zulu: [""]
+
+menuTitle: "🚨Maak een oproep aan!"
+menuDescription: "Kies de eenheden waarvoor je een oproep wilt aanmaken. Mochten er nog eenheden geslecteerd kan je gewoon weer eenheden selecteren die je nodig hebt voor je volgende oproep!"
+dropdownPlaceholder: "Kies een type eenheid..."
+embedColor: "#07e3df"
+
+authorizedRoleIds:
+  - "1397630702480130126"
+
+dropdownOptions:
+  - label: "Dienst Speciale Interventies"
+    emoji: ""
+    value: "dsi"
+  - label: "Recherche"
+    emoji: ""
+    value: "rech"
+  - label: "Korpsleiding"
+    emoji: ""
+    value: "kl"
+  - label: "Interne Zaken"
+    emoji: ""
+    value: "iz"
+  - label: "Zulu"
+    emoji: ""
+    value: "zulu"
